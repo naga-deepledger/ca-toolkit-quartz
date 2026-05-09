@@ -31,7 +31,6 @@ jobs:
         with:
           repository: naga-deepledger/ca-toolkit
           path: content
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node
         uses: actions/setup-node@v4
