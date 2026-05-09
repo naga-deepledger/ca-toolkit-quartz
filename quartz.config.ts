@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-IN",
     baseUrl: "naga-deepledger.github.io/ca-toolkit-quartz",
-    ignorePatterns: ["private", "_Templates", ".obsidian", "scripts", "*.canvas", "*.base"],
+    ignorePatterns: ["private", "_Templates", ".obsidian", "scripts", ".github", ".git", "node_modules", "*.canvas", "*.base", "*.json", "*.yml", "*.yaml", "*.py"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
